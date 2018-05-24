@@ -1,0 +1,36 @@
+body {
+  font-family: "Helvetica", sans-serif; /* all text has the same font */
+}
+
+h1, h2, .price {
+  font-weight: bold;
+}
+
+/*#banner */h1{   /* If we don't want to make our banner more complicated ID is unnecessary */
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+  color: khaki;
+  font-size: 100px;
+  text-align: center;
+}
+
+.goods {
+  /*display: block;*/  /* I thouht it was necessary, but in reality it isn't*/
+  /*width: 100%;*/
+  color: white;
+}
+
+.green {
+  background-color: mediumspringgreen;
+}
+
+.coral {
+  background-color: lightcoral;
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+.price {
+  color: blue;
+}
